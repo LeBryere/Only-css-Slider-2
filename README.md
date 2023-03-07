@@ -27,7 +27,7 @@ This is a simple HTML code that creates a simple slideshow using only CSS. The s
 Add basic metadata to your head of web page and fill it out accordingly:
 ```
  <meta charset="UTF-8">
-   <title>3D menu</title>
+   <title>Only CSS Slider</title>
    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
    <meta name="description" content=" # " />
    <meta name="keywords" content=" # " />
@@ -71,4 +71,4 @@ Add basic metadata to your head of web page and fill it out accordingly:
 
 ## Copyright and License
 
-Copyright 2022 Lebryere. Code released under the [MIT](https://raw.githubusercontent.com/LeBryere/3D-menu/master/LICENSE) license.
+Copyright 2022 Lebryere. Code released under the [MIT](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/LICENSE) license.
