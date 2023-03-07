@@ -23,8 +23,8 @@ body {
   display: flex;
 }
 
-/* =============================== LEFT */
-.left {
+/* =============================== control */
+.control {
   width: fit-content;
 }
 
@@ -66,8 +66,8 @@ body {
   object-position: 0px -100px;
 }
 
-/* ============================== RIGHT */
-.right {
+/* ============================== slider */
+.slider {
   position: relative;
   overflow: hidden;
 }
