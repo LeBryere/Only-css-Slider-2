@@ -71,4 +71,4 @@ Add basic metadata to your head of web page and fill it out accordingly:
 
 ## Copyright and License
 
-Copyright 2022 Lebryere. Code released under the [MIT](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/LICENSE) license.
+Copyright 2023 Lebryere. Code released under the [MIT](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/LICENSE) license.
