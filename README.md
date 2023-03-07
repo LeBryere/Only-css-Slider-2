@@ -2,13 +2,13 @@
 
 ## Preview
 
-[![Resume Preview](https://raw.githubusercontent.com/LeBryere/3D-menu/master/preview.png)](https://lebryere.github.io/only_css_slider_thumbnails/)
+[![Resume Preview](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/preview.png)](https://lebryere.github.io/only_css_slider_thumbnails/)
 
 **[View Live Preview](https://lebryere.github.io/only_css_slider_thumbnails/)**
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/3D-menu/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/LICENSE)
 
 ## Usage
 
