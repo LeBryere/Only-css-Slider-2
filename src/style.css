@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+
+.container {
+  display: flex;
+}
+
+/* =============================== LEFT */
+.left {
+  width: fit-content;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+}
+
+.thumbnails li {
+  flex: auto;
+  }
+
+.thumbnails a {
+  display: block;
+}
+
+.thumbnails img {
+  width: 30vmin;
+  height: 20vmin;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+}
+
+.thumbnails li img {
+  filter: sepia(90%) grayscale(30%) opacity(.95);
+  /* -webkit-filter: sepia(90%) grayscale(30%) opacity(.95) */
+}
+
+.thumbnails li:nth-child(1) img,
+.thumbnails li:nth-child(2) img,
+.thumbnails li:nth-child(4) img {
+  object-position: 0px -50px;
+}
+
+.thumbnails li:nth-child(5) img {
+  object-position: 0px -70px;
+}
+
+/* ============================== RIGHT */
+.right {
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  width: 56vmin;
+  height: 100vmin;
+}
+
+.slides li {
+  position: absolute;
+  z-index: 1;
+}
+
+.slides img {
+  height: 100vmin;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+}
+
+.slides li:target {
+  z-index: 3;
+  animation: slide 1s 1;
+  /* -webkit-animation: slide 1s 1; */
+}
+
+.slides li:not(:target) {
+  animation: hidden 1s 1;
+  /* -webkit-animation: hidden 1s 1; */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* @-webkit-keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+} */
+
+@keyframes hidden {
+  0% {
+    z-index: 2;
+    -webkit-filter: blur(0);
+  }
+
+  100% {
+    z-index: 2;
+    -webkit-filter: blur(5px);
+  }
+}
+
+/* @-webkit-keyframes hidden {
+  0% {
+    z-index: 2;
+    -webkit-filter: blur(0);
+  }
+
+  100% {
+    z-index: 2;
+    -webkit-filter: blur(5px);
+  }
+} */
