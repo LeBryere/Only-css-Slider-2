@@ -1,3 +1,7 @@
+:root {
+  --bg_color: #0a0a0a;
+}
+
 html {
   box-sizing: border-box;
   height: 100%;
@@ -16,7 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0a0a0a;
+  background-color: var(--bg_color)
 }
 
 .container {
@@ -36,7 +40,7 @@ body {
 
 .thumbnails li {
   flex: auto;
-  }
+}
 
 .thumbnails a {
   display: block;
@@ -53,7 +57,7 @@ body {
 
 .thumbnails li img {
   filter: sepia(90%) grayscale(30%) opacity(.95);
-  /* -webkit-filter: sepia(90%) grayscale(30%) opacity(.95) */
+  -webkit-filter: sepia(90%) grayscale(30%) opacity(.95)
 }
 
 .thumbnails li:nth-child(1) img,
@@ -93,12 +97,12 @@ body {
 .slides li:target {
   z-index: 3;
   animation: slide 1s 1;
-  /* -webkit-animation: slide 1s 1; */
+  -webkit-animation: slide 1s 1;
 }
 
 .slides li:not(:target) {
   animation: hidden 1s 1;
-  /* -webkit-animation: hidden 1s 1; */
+  -webkit-animation: hidden 1s 1;
 }
 
 @keyframes slide {
@@ -111,7 +115,7 @@ body {
   }
 }
 
-/* @-webkit-keyframes slide {
+@-webkit-keyframes slide {
   0% {
     transform: translateX(-100%);
   }
@@ -119,7 +123,7 @@ body {
   100% {
     transform: translateX(0%);
   }
-} */
+}
 
 @keyframes hidden {
   0% {
@@ -133,7 +137,7 @@ body {
   }
 }
 
-/* @-webkit-keyframes hidden {
+@-webkit-keyframes hidden {
   0% {
     z-index: 2;
     -webkit-filter: blur(0);
@@ -143,4 +147,4 @@ body {
     z-index: 2;
     -webkit-filter: blur(5px);
   }
-} */
+}
