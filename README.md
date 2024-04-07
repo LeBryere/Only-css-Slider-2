@@ -8,7 +8,7 @@
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/only_css_slider_thumbnails/master/LICENSE).
 
 ## Usage
 
@@ -26,4 +26,4 @@ This is a simple HTML code that creates a simple slideshow using only CSS. The s
 
 ## Copyright and License
 
-Copyright 2023 Lebryere. Code released under the [MIT](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/LICENSE) license.
+Copyright 2023 Lebryere. Code released under the [![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/only_css_slider_thumbnails/master/LICENSE).
