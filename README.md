@@ -1,4 +1,4 @@
-only CSS Slider](https://lebryere.github.io/only_css_slider_thumbnails/)
+# [only CSS Slider](https://lebryere.github.io/only_css_slider_thumbnails/)
 
 ## Preview
 
