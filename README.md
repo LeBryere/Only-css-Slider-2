@@ -1,10 +1,10 @@
-# [only CSS Slider](https://lebryere.github.io/only_css_slider_thumbnails/)
+# [only CSS Slider](https://lebryere.github.io/Only-css-Slider-2/)
 
 ## Preview
 
-[![Resume Preview](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/preview.png)](https://lebryere.github.io/only_css_slider_thumbnails/)
+[![Resume Preview](https://github.com/LeBryere/only_css_slider_thumbnails/blob/master/preview.png)](https://lebryere.github.io/Only-css-Slider-2/)
 
-**[View Live Preview](https://lebryere.github.io/only_css_slider_thumbnails/)**
+**[View Live Preview](https://lebryere.github.io/Only-css-Slider-2/)**
 
 ## Status
 
